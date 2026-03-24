@@ -18,5 +18,6 @@ def query_cohere(prompt):
         return f"Error: {e}"
 
 if __name__ == "__main__":
-    prompt = input("Enter prompt: ")
+    prompt = input("Enter the prompt: ")
+    print("Response:")
     print(query_cohere(prompt))
